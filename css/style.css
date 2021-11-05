@@ -1,0 +1,117 @@
+.datetime {
+  color: #C6DBFF;
+  font-family: 'Alata', sans-serif;
+  max-width: 400px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+.date {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.time {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time span:not(:last-child) {
+  position: relative;
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.time span:last-child{
+ font-weight: 600; 
+ font-size: 50px;
+ text-transform: uppercase;
+ margin-top: 10px;
+
+}
+
+
+.header-bg {
+  background-image: url('../images/img2.jpg');
+  height: 640px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-nav {
+  max-width: 1235px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.navigation {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: 'Alata', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.nav-li {
+  font-family: 'Alata', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.active {
+  color: #C6DBFF;
+}
+.header-div {
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  /* margin: 0 auto; */
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.header-title {
+  font-family: 'Alata', sans-serif;
+  font-size: 55px;
+  color: white;
+  /* text-align: center; */
+}
+.header-paragraph {
+  font-family: 'Actor', sans-serif;
+  font-size: 22px;
+  color: #C6DBFF;
+  /* text-align: center; */
+  margin-top: 20px;
+}
+.join-button {
+  max-width: 240px;
+  width: 100%;
+  height: 60px;
+  background-color: #021C3E;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.header-button {
+  color: white;
+  font-family: 'Alata', sans-serif;
+  font-size: 22px;
+}
+.header-divwraper {
+  display: flex;
+  align-items: center;
+}
