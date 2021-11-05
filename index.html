@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>SPɅCED</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body onload="initClock()">
-    <header class="header-bg">
+  <body onload="initClock()" onload="show()">
+    <div class="header-bg">
+    <header>
       <div class="header-line">
           <nav class="header-nav">
               <a href="index.html" class="logo">SPɅCED</a>
@@ -20,6 +25,7 @@
               </ul>
           </nav>
       </div>
+    </header>
       <div class="header-divwraper">
       <div class="header-div">
           <h2 class="header-title">TO SPACE AND BACK</h2>
@@ -28,7 +34,7 @@
          and observational skills. We make ourselves and our instruments 
                 available to promote public interest in astronomy.</p>
           <div class="join-button">
-              <a class="header-button" href="#">Join us now!</a>
+              <a class="header-button" href="#sectionId">Join us now!</a>
           </div>
       </div>
     <!--digital clock start-->
@@ -50,6 +56,78 @@
     <!--digital clock end-->
 
     <script src="script.js"></script>
+
+      <div class="featured-wraper">
+        <div class="header-featured">
+        <div class="featured-divs">
+          <a class="featured-link" href="#"><img class="header-images" src="images/1.jpg" alt="mars">Hear Sounds From Mars Captured by NASA's Perseverance Rover</a>
+        </div>
+        <div class="featured-divs">
+          <a class="featured-link" href="#"><img class="header-images" src="images/2.jpg" alt="black-hole">Some supermassive black holes may contain fingerprints from the Big Bang</a>
+        </div>
+        <div class="featured-divs">
+          <a class="featured-link" href="#"><img class="header-images" src="images/33.jpg" alt="space-station">Astronauts grew green chile on the space station and made themselves space tacos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+    <section class="sec1">
+      <div class="line"></div>
+      <div class="section1">
+        <div class="section1-image">
+          <img class="image" src="images/header-image.jpg" alt="space">
+        </div>
+        <div class="section1-div">
+          <h3 class="section1-title">What Do We Do?</h3>
+          <p class="section1-paragraph">We want to give everyone an opportunity to explore major 
+            advances across the sciences that have transformed our 
+            understanding of the world and our universe, and our lives.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-bg">
+    <h2 class="section2-title">You can visit our research centers & Observatories</h2>
+    <div class="section2-wraper">
+    <div class="section2-divs">
+      <img class="sec2-img" src="images/section2-1.jpg" alt="">
+      <h5 class="div-description">Mission Control Center</h5>
+    </div>
+    <div class="section2-divs">
+      <img class="sec2-img" src="images/section2-2.jpg" alt="">
+      <h5 class="div-description">Observatory</h5>
+    </div>
+    <div class="section2-divs">
+      <img class="sec2-img" src="images/section2-3.jpg" alt="">
+      <h5 class="div-description">Particle Physics Laboratory</h5>
+    </div>
+    <div class="section2-divs">
+      <img class="sec2-img" src="images/section2-6.jpg" alt="">
+      <h5 class="div-description">Space Research Center</h5>
+    </div>
+  </div>
+    </section>
+
+    <section class="section3" id="sectionId">
+      <div class="section3-wraper">
+      <h2 class="section3-title">Join us and become our team member!</h2>
+      <div class="forms">
+      <form action="">
+      <div class="form-element">
+        <label for="email"></label>
+        <input class="input-element" type="email" name="email" id="myemail" placeholder="Enter Your Email">
+      </div>
+      <div class="form-element">
+        <label for="password"></label>
+        <input class="input-element" type="password" name="password" id="mypass" placeholder="Enter Your Password">
+      </div>
+      <button class="btn-send" type="submit">Submit</button>
+    </form>
+  </div>
+  </div>
+    </section>
 
   </body>
 </html>

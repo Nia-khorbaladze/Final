@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Digital Clock With Date</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body onload="initClock()">
+    <header class="header-bg">
+      <div class="header-line">
+          <nav class="header-nav">
+              <a href="index.html" class="logo">SPɅCED</a>
+              <ul class="navigation">
+                  <li class="nav-li"> <a class="nav-li active" href="#">Home</a></li>
+                  <li class="nav-li"> <a class="nav-li" href="#">Humans in Space</a></li>
+                  <li class="nav-li"> <a class="nav-li" href="#">How universe works</a></li>
+                  <li class="nav-li"> <a class="nav-li" href="#">Solar system and Beyond</a></li>
+                  <li class="nav-li"> <a class="nav-li" href="#">Contact us</a></li>
+              </ul>
+          </nav>
+      </div>
+      <div class="header-divwraper">
+      <div class="header-div">
+          <h2 class="header-title">TO SPACE AND BACK</h2>
+          <p class="header-paragraph">We are a group of amateur astronomers 
+              working together to improve astronomical knowledge 
+         and observational skills. We make ourselves and our instruments 
+                available to promote public interest in astronomy.</p>
+          <div class="join-button">
+              <a class="header-button" href="#">Join us now!</a>
+          </div>
+      </div>
+    <!--digital clock start-->
+    <div class="datetime">
+      <div class="date">
+        <span id="dayname">Day</span>,
+        <span id="month">Month</span>
+        <span id="daynum">00</span>,
+        <span id="year">Year</span>
+      </div>
+      <div class="time">
+        <span id="hour">00</span>:
+        <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+        <span id="period">AM</span>
+      </div>
+    </div>
+    </div>
+    <!--digital clock end-->
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
+      
