@@ -152,63 +152,9 @@
   margin-top: 5px;
   font-family: 'Alata', sans-serif;
 }
+ 
 
 
-
-/* 
-.sec1-img {
-  max-width: 600px;
-  width: 100%;
-}
-.section-img {
-  width: 100%;
-}
-.sec1-paragraph1 {
-  max-width: 500px;
-  width: 100%;
-  border: 2px solid #021C3E;
-  font-family: 'Alata', sans-serif;
-  font-size: 22px;
-  padding: 20px 10px;
-  color: #021C3E;
-}
-.sec1-paragraph2 {
-  max-width: 500px;
-  width: 100%;
-  border: 2px solid #021C3E;
-  font-family: 'Alata', sans-serif;
-  font-size: 22px;
-  padding: 20px 10px;
-  margin-top: 30px;
-}
-.section1-divwraper {
-  max-width: 1250px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  align-items: center;
-}
-.section1-title {
-  font-family: 'Alata', sans-serif;
-  font-size: 35px;
-  color: #021C3E;
-  text-align: center;
-  padding-top: 50px;
-}
-.line {
-  max-width: 280px;
-  width: 100%;
-  height: 1px;
-  background-color: #021C3E;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-.section1 {
-  background-image: url('../images/section.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 .sec1 {
   background-color:#04101E;
 }
@@ -401,4 +347,51 @@
 }
 .join-button:hover .header-button {
   color: #04101E;
+}
+
+
+/* PAGE 2 */
+.header-bg2 {
+  background-image: url('../images/img2.jpg');
+  height: 80px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.articleList {
+  max-width: 850px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+.articleList-img {
+  max-width: 350px;
+  width: 100%;
+}
+.article-img {
+  width: 100%;
+  padding-right: 20px;
+}
+.article-description {
+  max-width: 400px;
+  width: 100%;
+}
+.article-wraper {
+  max-width: 1050px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #04101E;
+}
+.article-title {
+  font-family: 'Alata', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+.article-paragraph {
+  font-family: 'Alata', sans-serif;
+  font-size: 15px;
+  color: #C6DBFF;
+  padding-top: 15px;
 }
