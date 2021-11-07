@@ -271,11 +271,11 @@
   border: 2px solid #04101E;
   border-radius: 5px;
   background-color: #C6DBFF;
+  padding-left: 15px;
 }
 .input-element::placeholder {
   color: #04101E;
   font-family: 'Alata', sans-serif;
-  padding-left: 15px;
 
 }
 .input-element:focus{
@@ -672,7 +672,7 @@
 .pg5-mapdiv {
   max-width: 900px;
   width: 100%;
-  margin: 50px 0px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -705,11 +705,21 @@
   max-width: 60px;
   width: 100%;
   height: 60px;
-  background-color: #C6DBFF;
+  /* background-color: #C6DBFF; */
+  background-image: url('../images/img2.jpg');
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.fa-envelope {
+  color: white;
+}
+.fa-phone {
+  color: white;
+}
+.fa-compass {
+  color: white;
 }
 .pg5-infowraper {
   display: flex;
@@ -717,7 +727,8 @@
   max-width: 700px;
   width: 100%;
   justify-content: space-between;
-  margin: 50px 0px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .info-title {
   font-family: 'Alata', sans-serif;
@@ -738,4 +749,7 @@
   flex-direction: column;
   align-items: center;
 }
-
+.pg5-line1 {
+  max-width: 700px;
+  width: 100%;
+}
