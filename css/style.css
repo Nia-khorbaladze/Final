@@ -609,3 +609,133 @@
   font-size: 40px;
   text-align: center;
 }
+.page5-forms {
+  max-width: 750px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.input-element2 {
+  max-width: 500px;
+  width: 100%;
+  height: 60px;
+  border: 2px solid #04101E;
+  border-radius: 5px;
+  background-color: #C6DBFF;
+  padding-left: 15px;
+}
+.textarea-element2 {
+  max-width: 700px;
+  width: 100%;
+  height: 196px;
+  border: 2px solid #04101E;
+  border-radius: 5px;
+  background-color: #C6DBFF;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.forms-line1 {
+  max-width: 380px;
+  width: 100%;
+}
+.forms-line2 {
+  max-width: 400px;
+  width: 100%;
+}
+
+.input-element2::placeholder {
+  color: #04101E;
+  font-family: 'Alata', sans-serif;
+
+}
+.input-element2:focus{
+  outline: none;
+  font-family: 'Alata', sans-serif;
+}
+.textarea-element2::placeholder {
+  color: #04101E;
+  font-family: 'Alata', sans-serif;
+}
+.textarea-element2:focus{
+  outline: none;
+  font-family: 'Alata', sans-serif;
+}
+.pg5section-wraper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #04101E;
+}
+.pg5-mapdiv {
+  max-width: 900px;
+  width: 100%;
+  margin: 50px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.pg5-map {
+  width: 100%;
+  height: 400px;
+}
+.pg5-title {
+  font-family: 'Alata', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin: 25px 0px;
+}
+.send-button {
+  max-width: 120px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  font-family: 'Alata', sans-serif;
+  margin-top: 15px;
+}
+.contactpg-wraper {
+  max-width: 1000px;
+  width: 100%;
+}
+.contactinfo-div {
+  max-width: 60px;
+  width: 100%;
+  height: 60px;
+  background-color: #C6DBFF;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pg5-infowraper {
+  display: flex;
+  flex-direction: row;
+  max-width: 700px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+.info-title {
+  font-family: 'Alata', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.info-paragraph {
+  font-family: 'Alata', sans-serif;
+  font-size: 14px;
+  color: #C6DBFF;
+  text-align: center;
+}
+.contactinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
