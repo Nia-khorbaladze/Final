@@ -35,6 +35,12 @@
         line-height: 1.2;
     }
 }
+@media(max-width:950px) {
+    .footer-wraper {
+        flex-wrap: wrap;
+        width: 85%;
+    }
+}
 
 @media(max-width:770px) {
     .navigation {
@@ -108,11 +114,107 @@
     }
 }
 @media(max-width:600px) {
+    .header-bg {
+        height: auto;
+        padding-bottom: 20px;
+    }
     .featured-wraper {
         width: 80%;
-        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .header-featured {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section2-titlewraper {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section1-title {
+        text-align: center;
+    }
+    .section1-paragraph {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer-line2 {
+        margin-top: 20px;
     }
 }
-@media(max-width:481px) {
+@media(max-width:490px) {
+    .header-div {
+        width: 85%;
+    }
+    .header-title {
+        font-size: 42px;
+    }
+    .header-paragraph {
+        font-size: 15px;
+    }
+    .datetime {
+        width: 70%;
+    }
+    .time {
+        font-size: 30px;
+    }
+    .time span:last-child {
+        font-size: 30px;
+    }
+    .section3-title {
+        font-size: 25px;
+    }
+    .section1-image {
+        width: 80%;
+    }
+    .footer-line2 {
+        margin-top: 20px;
+    }
+}
+@media(max-width:440px) {
+    .header-divwraper {
+        width: 90%;
+    }
+    .header-div {
+
+    }
+    .header-title {
+        font-size: 35px;
+    }
+    .join-button {
+        width: 60%;
+        height: 50px;
+    }
+    .footer-line2 {
+        margin-top: 20px;
+    }
     
+}
+@media(max-width:365px) {
+    .section2-title {
+        font-size: 20px;
+    }
+    .header-title {
+        text-align: center;
+    }
+    .header-paragraph {
+        text-align: center;
+    }
+    .time {
+        font-size: 20px;
+    }
+    .time span:last-child {
+        font-size: 20px;
+    }
+    .date {
+        font-size: 15px;
+    }
+    .header-div {
+        width: 100%;
+    }
+    .forms {
+        width: 90%;
+    }
+    .footer-line2 {
+        margin-top: 20px;
+    }
 }

@@ -217,6 +217,11 @@
   padding-top: 20px;
   margin-bottom: 15px;
 }
+.section2-titlewraper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
 .div-description {
   font-family: 'Alata', sans-serif;
   color: #C6DBFF;
