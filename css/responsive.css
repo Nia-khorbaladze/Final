@@ -107,6 +107,12 @@
         width: 85%;
     }
 }
+@media(max-width:600px) {
+    .featured-wraper {
+        width: 80%;
+        flex-direction: row;
+    }
+}
 @media(max-width:481px) {
     
 }
