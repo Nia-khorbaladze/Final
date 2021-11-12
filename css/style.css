@@ -358,6 +358,26 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.page2-title {
+  font-family: 'Alata', sans-serif;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.page2-line {
+  max-width: 330px;
+  width: 100%;
+  height: 2px;
+  background-color: #C6DBFF;
+  margin-top: 20px;
+}
+.page2-titlewraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .articleList {
   max-width: 850px;
   width: 100%;
