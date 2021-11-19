@@ -305,6 +305,7 @@
 .footer-wraper {
   display: flex;
   max-width: 1200px;
+  width: 100%;
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 50px;
@@ -608,8 +609,8 @@
   width: 100%;
 }
 .page4-line3 {
-  max-width: 290px;
-  width: 100%;
+  max-width: 580px;
+  width: 50%;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -661,12 +662,17 @@
   padding-top: 15px;
 }
 .forms-line1 {
-  max-width: 380px;
+  max-width: 350px;
   width: 100%;
 }
 .forms-line2 {
   max-width: 400px;
   width: 100%;
+}
+.page5-forms {
+  max-width: 780px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .input-element2::placeholder {
