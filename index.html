@@ -17,7 +17,7 @@
     <meta name="robots" content="noindex,nofollow">
     <link
       rel="icon"
-      href="images/black-hole.png"
+      href="images/jupiter-with-satellite.png"
       type="image/x-icon"
       sizes="16x16"
     />
@@ -43,8 +43,9 @@
     <section class="header-bg">
       <header>
         <div class="header-line">
-          <nav class="header-nav">
+          
             <a href="index.html" class="logo">SPɅCED</a>
+            <nav class="header-nav" id="navigationBlock">
             <ul class="navigation">
               <li class="nav-li">
                 <a class="nav-li active" href="index.html">Home</a>
@@ -62,11 +63,14 @@
               </li>
               <li class="nav-li"><a class="nav-li" href="contact.html">Contact us</a></li>
             </ul>
+          </nav>
 
-            <div class="burger-bar">
+            <div class="burger-bar" id="burgerIcon">
               <i class="fas fa-bars"></i>
             </div>
-          </nav>
+
+            <script src="script3.js"></script>
+
         </div>
       </header>
       <div class="header-divwraper">
@@ -200,10 +204,11 @@
                 placeholder="Enter Your Password"
               />
             </div>
-            <button class="btn-send" type="submit">Submit</button>
+            <button id="send" class="btn-send" type="submit" value="Submit">Submit</button>
           </form>
         </div>
       </div>
+      <script src="script2.js"></script>
     </section>
 
     <footer class="footer-bg">

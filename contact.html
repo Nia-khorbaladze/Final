@@ -7,7 +7,7 @@
     <title>SPɅCED</title>
     <link
       rel="icon"
-      href="images/black-hole.png"
+      href="images/jupiter-with-satellite.png"
       type="image/x-icon"
       sizes="16x16"
     />
@@ -30,12 +30,15 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <header class="header-bg2">
+    <header class="section-bg">
       <div class="header-line">
-        <nav class="header-nav">
+        
           <a href="index.html" class="logo">SPɅCED</a>
+          <nav class="header-nav" id="navigationBlock">
           <ul class="navigation">
-            <li class="nav-li"><a class="nav-li" href="index.html">Home</a></li>
+            <li class="nav-li">
+              <a class="nav-li " href="index.html">Home</a>
+            </li>
             <li class="nav-li">
               <a class="nav-li" href="humansinspace.html">Humans in Space</a>
             </li>
@@ -49,11 +52,14 @@
             </li>
             <li class="nav-li"><a class="nav-li active" href="contact.html">Contact us</a></li>
           </ul>
-
-          <div class="burger-bar">
+        </nav>
+  
+          <div class="burger-bar" id="burgerIcon">
             <i class="fas fa-bars"></i>
           </div>
-        </nav>
+  
+          <script src="script3.js"></script>
+  
       </div>
     </header>
 
@@ -119,7 +125,8 @@
         </div>
 
 
-    <button class="send-button" type="submit" value="Submit">Submit</button>
+    <button id="send" class="send-button" type="submit" value="Submit">Submit</button>
+    <script src="script2.js"></script>
 
     <div class="pg5-infowraper">
         <div class="contactinfo infobox">
