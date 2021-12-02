@@ -1,0 +1,49 @@
+Date : 2021-11-20 06:42:30
+Directory : c:\Users\HP\Desktop\Final
+Total : 19 files,  3369 codes, 60 comments, 201 blanks, all 3630 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |          4 |      1,934 |         36 |         67 |      2,037 |
+| HTML       |          8 |      1,377 |         24 |        119 |      1,520 |
+| JavaScript |          3 |         42 |          0 |         12 |         54 |
+| XML        |          3 |         15 |          0 |          3 |         18 |
+| Markdown   |          1 |          1 |          0 |          0 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                            | files      | code       | comment    | blank      | total      |
++-------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                               |         19 |      3,369 |         60 |        201 |      3,630 |
+| css                                             |          4 |      1,934 |         36 |         67 |      2,037 |
+| images                                          |          3 |         15 |          0 |          3 |         18 |
++-------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                        | language   | code       | comment    | blank      | total      |
++-------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\HP\Desktop\Final\HowUniverseWorks.html | HTML       |        171 |          2 |         23 |        196 |
+| c:\Users\HP\Desktop\Final\README.md             | Markdown   |          1 |          0 |          0 |          1 |
+| c:\Users\HP\Desktop\Final\SolarSystem.html      | HTML       |        256 |          0 |         26 |        282 |
+| c:\Users\HP\Desktop\Final\contact.html          | HTML       |        173 |         20 |         16 |        209 |
+| c:\Users\HP\Desktop\Final\css\articles.css      | CSS        |        246 |          6 |         10 |        262 |
+| c:\Users\HP\Desktop\Final\css\reset.css         | CSS        |         52 |          7 |          2 |         61 |
+| c:\Users\HP\Desktop\Final\css\responsive.css    | CSS        |        635 |          8 |          9 |        652 |
+| c:\Users\HP\Desktop\Final\css\style.css         | CSS        |      1,001 |         15 |         46 |      1,062 |
+| c:\Users\HP\Desktop\Final\featured1.html        | HTML       |         99 |          0 |         10 |        109 |
+| c:\Users\HP\Desktop\Final\featured2.html        | HTML       |        117 |          0 |         10 |        127 |
+| c:\Users\HP\Desktop\Final\featured3.html        | HTML       |         98 |          0 |          7 |        105 |
+| c:\Users\HP\Desktop\Final\humansinspace.html    | HTML       |        204 |          0 |         16 |        220 |
+| c:\Users\HP\Desktop\Final\images\mail.svg       | XML        |          6 |          0 |          1 |          7 |
+| c:\Users\HP\Desktop\Final\images\map-pin.svg    | XML        |          6 |          0 |          1 |          7 |
+| c:\Users\HP\Desktop\Final\images\phone.svg      | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\HP\Desktop\Final\index.html            | HTML       |        259 |          2 |         11 |        272 |
+| c:\Users\HP\Desktop\Final\script.js             | JavaScript |         34 |          0 |          4 |         38 |
+| c:\Users\HP\Desktop\Final\script2.js            | JavaScript |          3 |          0 |          3 |          6 |
+| c:\Users\HP\Desktop\Final\script3.js            | JavaScript |          5 |          0 |          5 |         10 |
+| Total                                           |            |      3,369 |         60 |        201 |      3,630 |
++-------------------------------------------------+------------+------------+------------+------------+------------+
