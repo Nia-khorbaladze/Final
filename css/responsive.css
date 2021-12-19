@@ -261,6 +261,9 @@
     .footer-line2 {
         margin-top: 20px;
     }
+    body {
+        overflow-x: hidden;
+    }
     
 }
 @media(max-width:365px) {
